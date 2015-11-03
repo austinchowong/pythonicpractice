@@ -1,6 +1,8 @@
 from os import listdir, rename, getcwd, chdir
 from os.path import isfile, join
 from string import translate
+# removes all numbers from filenames using the os and string library
+
 
 onlyfiles = [ f for f in listdir("/home/austinchowong/Documents/Pythonfiles/50pictures/prank")
               if isfile(join("/home/austinchowong/Documents/Pythonfiles/50pictures/prank", f)) ]
